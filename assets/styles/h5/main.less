@@ -1,0 +1,18 @@
+.h5 {
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+}
+@import '../theme.less';
+
+.info-button.van-button.van-button--default {
+  border-color: var(--gray-5) !important;
+  &::before {
+    background: var(--gray-5) !important;
+    border-color: var(--gray-5) !important;
+  }
+}
+
+.van-checkbox__icon .van-icon {
+  background-color: rgba(0,0,0,.2);
+}
